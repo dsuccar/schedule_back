@@ -1,0 +1,2 @@
+class GitActivity < ApplicationRecord
+end

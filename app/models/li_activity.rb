@@ -1,0 +1,2 @@
+class LiActivity < ApplicationRecord
+end
