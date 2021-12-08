@@ -1,4 +1,4 @@
-class GitActivityController < ApplicationController
+class GitActivitiesController < ApplicationController
 
   def index
     gitActivities = GitActivity.all
