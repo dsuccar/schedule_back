@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2021_12_07_183952) do
     t.integer "user_id"
     t.string "company"
     t.string "contact"
+    t.string "date"
     t.boolean "open"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

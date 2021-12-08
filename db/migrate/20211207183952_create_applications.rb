@@ -4,6 +4,7 @@ class CreateApplications < ActiveRecord::Migration[6.0]
       t.integer :user_id
       t.string :company
       t.string :contact
+      t.string :date
       t.boolean :open
 
       t.timestamps
