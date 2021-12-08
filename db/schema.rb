@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2021_12_07_183952) do
   create_table "git_activities", force: :cascade do |t|
     t.integer "user_id"
     t.string "date"
-    t.string "message"
+    t.string "note"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

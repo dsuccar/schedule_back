@@ -3,7 +3,7 @@ class CreateGitActivities < ActiveRecord::Migration[6.0]
     create_table :git_activities do |t|
       t.integer :user_id
       t.string :date
-      t.string :message
+      t.string :note
 
       t.timestamps
     end

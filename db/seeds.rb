@@ -4,5 +4,5 @@ User.destroy_all
 GitActivity.destroy_all
 
 danny = User.create(username: "dsuccar")
-gitcommit = GitActivity.create(user_id: danny.id, date: "friday", message: "testing")
-
+gitcommit = GitActivity.create(user_id: danny.id, date: "friday", note: "testing")
+liThing = LiActivity.create(user_id: danny.id, date: "Tuesday", note: "i did it")
